@@ -1,0 +1,8 @@
+Common packages in web scraping with Python:
+- Request <-- To make HTTP request requests to a specific URL.
+- BeautifulSoup Library <-- To detect the html structure and taking what you need.
+- Selenium <-- To automate web browsers.
+- Lxml  <-- To process XML and HTML documents.
+- Urllib <-- Provide functions to work with URLs.
+- PyautoGUI <-- Provide functions to automate tasks.
+- Schedule <-- It allows you to schedule Python functions to run at specified intervals.
