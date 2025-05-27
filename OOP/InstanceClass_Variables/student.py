@@ -1,5 +1,5 @@
 class Student:
-    university: str = "Harvard"
+    university: str = "Harvard" # Variable of class
 
     def __init__(self, name: str, num_regis: int) -> None:
         self.name = name
@@ -19,8 +19,7 @@ std_1 = Student("John", 32325)
 std_2 = Student("Anna", 55231)
 show_values(std_1, std_2)
 
-
-Student.name = "Stanford"
-Student.university = "Stanford"
+Student.name = "Stanford" # Here it shows that we cannot modify the parameter in init(), only outside of it
+Student.university = "Stanford" # Modifying the variable 'university' of the class
 std_3 = Student("Chappie", 90909)
 show_values(std_1, std_2, std_3)
